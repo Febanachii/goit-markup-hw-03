@@ -134,6 +134,32 @@ button{
 background: var(--color-header);
 }
 
+.section-portfolio-main{
+    padding-top: 96px;
+    padding-bottom: 120px;
+
+
+}
+
+.underlist-portfolio-button{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-right: 24px;
+    margin-bottom: 72px;
+
+
+}
+
+.underlist-portfolio-images{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    margin-right: 24px;
+    row-gap: 48px;
+    margin-bottom: 48px;
+}
+
 
 .button-style{
     list-style: none;
@@ -148,17 +174,23 @@ background: var(--color-header);
     color: var(--title-color);
     background-color: var(--secondary-color);
     cursor: pointer;
+    padding: 12px 24px;
+    padding-top: 12px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
     
 }
 
 .button-style-all-points:hover{
     color: var(--background-color);
     background-color:var(--color-header);
+    border: 1px solid transparent;
 }
 
 .button-style-all-points:focus{
     color: var(--background-color);
 background-color: var(--color-header);
+border: 1px solid transparent;
 }
 .list{
     list-style: none;
