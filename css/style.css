@@ -252,6 +252,13 @@ text-decoration: none;
 
 }
 
+.section-style-our-adv{
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+        
+}
+
 .style-button-order-service{
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
@@ -288,6 +295,7 @@ text-decoration: none;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--accent-color);
+    margin-bottom: 8px;
 
 }
 
@@ -296,6 +304,16 @@ text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
 
+}
+
+.our-advant{
+    display: flex;
+    gap: 24px;
+    margin-right: 24px;
+}
+
+.elements-list{
+    width: calc((100% - 72px) / 4);
 }
 
 
