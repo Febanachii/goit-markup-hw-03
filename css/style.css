@@ -115,9 +115,13 @@ color:var(--color-header);
 }
 
 
-.addres-style-positione{
+.menu-style-positione{
     gap: 40px;
     margin-right: 40px;
+    padding: 24px 0;
+    padding: 24px 0 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
