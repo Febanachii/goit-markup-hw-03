@@ -3,6 +3,8 @@
     --title-color: #4d5ae5;
  --primary-color: #434455;
  --secondary-color: #f4f4fd;
+ --background-color:#FFFFFF;
+ --color-header: #404bbf;
 
 }
 .link{
@@ -13,10 +15,10 @@ text-decoration: none;
     list-style: none;
 }
 body{
-font-family: 'Raleway', sans-serif;
+
 font-family: 'Roboto', sans-serif;
-color: #434455;
-background-color: #FFFFFF
+color: var(--primary-color);
+background-color: var(--background-color);
 
 }
 
@@ -36,14 +38,9 @@ font-family: "Raleway", sans-serif;
 
 
 .text-studio{
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    
     color: var(--accent-color);
-    text-decoration: none;
+    
 
 }
 
@@ -57,11 +54,11 @@ line-height: 1.5;
 }
 
 .points-li-header:hover{
-    color: #404bbf;
+    color: var(--color-header);
 }
 
 .points-li-header:focus{
-    color: #404bbf;
+    color: var(--color-header);
 }
 
 .address{
@@ -80,12 +77,11 @@ line-height: 1.5;
 }
 
 .address-points:hover{
-color: #404bbf;
-
+color:var(--color-header);
 }
 
 .address-points:focus{
-    color: #404bbf;
+    color:var(--color-header);
 }
 
 
@@ -94,11 +90,11 @@ color: #404bbf;
 
 
 .adress-phone link:focus {
-    color: #404bbf;
+    color: var(--color-header);
 }
 /*---------------------------main--------------------------------*/
 button{
-background: #404BBF;
+background: var(--color-header);
 }
 
 
@@ -119,15 +115,14 @@ background: #404BBF;
 }
 
 .button-style-all-points:hover{
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--background-color);
+    background-color:var(--color-header);
 }
 
 .button-style-all-points:focus{
-    color: #FFFFFF;
-background-color: #404BBF;
+    color: var(--background-color);
+background-color: var(--color-header);
 }
-
 .list{
     list-style: none;
 text-decoration: none;
@@ -163,7 +158,7 @@ text-decoration: none;
 }
 
 .section-our-team{
-    background-color: #F4F4FD;
+    background-color: var(--secondary-color);
 
 }
 
@@ -178,7 +173,7 @@ text-decoration: none;
 }
 
 .points-name{
-    background-color: #FFFFFF;
+    background-color: var(--background-color);
 }
 
 .title-all-points{
@@ -210,7 +205,7 @@ text-decoration: none;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff;
+    color: var(--background-color);
 
 }
 
@@ -221,18 +216,18 @@ text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: var(--background-color);
     cursor: pointer;
 
 
 }
 
 .style-button-order-service:hover{
-    background-color: #404BBF;
+    background-color: var(--color-header);
 }
 
 .style-button-order-service:focus{
-    background-color: #404BBF;
+    background-color:var(--color-header);
 }
 
 .all-points{
@@ -264,7 +259,7 @@ text-decoration: none;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        text-transform: uppercase;
+       
 }
 
 .text-studio-footer{
@@ -281,6 +276,10 @@ font-weight: 800;
 }
 
 .text-paragraph-footer{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
     line-height: 1.5;
     color:var(--secondary-color);
     letter-spacing: 0.02em;
