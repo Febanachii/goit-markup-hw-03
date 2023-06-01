@@ -9,10 +9,16 @@
 }
 .link{
 text-decoration: none;
+
 }
 
 .list {
     list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-right: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 body{
 
@@ -56,6 +62,7 @@ font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: var(--title-color);
     text-decoration: none;
+    margin-right: 76px;
 
 }
 
@@ -108,7 +115,10 @@ color:var(--color-header);
 }
 
 
-
+.addres-style-positione{
+    gap: 40px;
+    margin-right: 40px;
+}
 
 
 
