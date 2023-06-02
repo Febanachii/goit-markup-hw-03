@@ -9,6 +9,8 @@
 }
 .link{
 text-decoration: none;
+display: block;
+
 
 }
 
@@ -80,6 +82,10 @@ font-size: 16px;
 line-height: 1.5;
  letter-spacing: 0.02em;
  color:var(--accent-color);
+padding: 24px 0;
+padding-top: 24px;
+padding-bottom: 24px;
+
 
 }
 
@@ -106,6 +112,7 @@ line-height: 1.5;
 
 }
 
+
 .address-points:hover{
 color:var(--color-header);
 }
@@ -122,6 +129,7 @@ color:var(--color-header);
     padding: 24px 0 24px;
     padding-top: 24px;
     padding-bottom: 24px;
+    display: flex;
 }
 
 
@@ -379,11 +387,12 @@ text-decoration: none;
     border-top-left-radius: 0px;
     border-top-right-radius: 4px;
     border-bottom-left-radius: 4px;
+    
 
 }
 
 .name-div-sectiones{
-    padding: 32px 16px;
+    padding: 0px 0px 32px;
     padding-bottom: 32px;
     padding-left: 16px;
     padding-right: 16px;
