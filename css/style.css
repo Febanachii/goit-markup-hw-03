@@ -10,9 +10,13 @@
 .link{
 text-decoration: none;
 display: block;
-
-
 }
+
+img{
+        display: block;
+ }
+
+
 
 .list {
     list-style: none;
@@ -185,7 +189,7 @@ background: var(--color-header);
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-   
+
     row-gap: 48px;
     margin: 0;
 }
@@ -229,6 +233,7 @@ background: var(--color-header);
 background-color: var(--color-header);
 border: 1px solid transparent;
 }
+
 .list{
     list-style: none;
 text-decoration: none;
@@ -434,8 +439,15 @@ text-decoration: none;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
+        padding: 100px 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
+            
+
        
 }
+s
+
 
 .text-studio-footer{
     color: var(--secondary-color);
@@ -448,6 +460,9 @@ font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
+
 }
 
 .text-paragraph-footer{
@@ -458,6 +473,8 @@ font-weight: 800;
     line-height: 1.5;
     color:var(--secondary-color);
     letter-spacing: 0.02em;
+    max-width: 264px;
+    
 
 }
 
