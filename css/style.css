@@ -114,6 +114,7 @@ margin: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-color);
+   
 
 }
 
@@ -124,16 +125,19 @@ color:var(--color-header);
 
 .address-points:focus{
     color:var(--color-header);
+    
 }
 
 
 .menu-style-positione{
     gap: 40px;
-    margin-right: 40px;
+    
     padding: 24px 0;
     padding: 24px 0 24px;
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-right: 40px;
+    margin-right: 0;
     
 }
 
@@ -318,7 +322,7 @@ text-decoration: none;
 .positione-section-three{
     width: calc((100% - 48px) / 3);
     flex-basis: calc((100% - 3 * 16px) / 3);
-    
+
 }
 /*-----------------------------------index-html----------------------------*/
 
