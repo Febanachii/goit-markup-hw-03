@@ -155,14 +155,14 @@ button{
 background: var(--color-header);
 }
 
-.visually-hidden{
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
-    margin: 0px;
+    margin: -1px;
     border: 0;
     padding: 0;
-     white-space: nowrap;
+    white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
@@ -293,7 +293,8 @@ text-decoration: none;
 }
 
 .points-name{
-    background-color: var(--background-color);
+width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .title-all-points{
